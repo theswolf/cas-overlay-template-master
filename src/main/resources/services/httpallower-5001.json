@@ -1,0 +1,10 @@
+{
+  /*
+    Generic service definition that applies to https/imaps urls
+    that wish to register with CAS for authentication.
+  */
+  "@class" : "org.jasig.cas.services.RegexRegisteredService",
+  "serviceId" : "^(http)://.*",
+  "name" : "HTTP ALLOWER SERVICE",
+  "id" : 5001,
+}
